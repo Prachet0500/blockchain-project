@@ -17,12 +17,13 @@ import './style.css'
                     <li>
                     <Link to='./redeem'>Redeem Points</Link>
                     </li>
-                    <li>
+                    {/* <li>
                     <Link to='./wallet'>Wallet</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav> 
     );
 }
+//uuuu
 export default NavBar;
