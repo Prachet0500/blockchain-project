@@ -1,5 +1,5 @@
 import React from "react";
-import placeholder from  "../../images/placeholder.png"
+import placeholder from  "../../images/placeholder.svg"
 import { useNavigate } from "react-router";
 import './style.css'
 const Header =()=>{
@@ -8,6 +8,7 @@ const Header =()=>{
     const handleBuyClick=()=>{
         navigate('/buy');
     }
+    console.log('header',placeholder)
 
     return(
 
@@ -16,7 +17,7 @@ const Header =()=>{
                 <div className="hash">#Simple. #Transparent. #Secure</div><br/>
                 <div className="name">Extra Points Solutions</div><br/>
                 <div className="description">Products and services designed to help you reach your financial goals.</div><br/>
-                <button onClick={handleBuyClick}>Buy</button>
+                <button onClick={handleBuyClick}><div>Buy Now</div></button>
             </div> 
             <div>
                 <img src={placeholder} className="headerimg"alt='ok'></img>

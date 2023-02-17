@@ -1,0 +1,19 @@
+.CardGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+    position :relative;
+    width:150vmin;
+    margin-bottom: 10%;
+  }
+  
+  .Card {
+    display: flex ;
+    position: relative;
+    width: calc(18.5% - 18px);
+    margin: 16px;
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+  }
