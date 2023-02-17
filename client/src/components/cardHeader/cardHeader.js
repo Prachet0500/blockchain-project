@@ -5,7 +5,7 @@ function CardHeader(){
         <div className="CardHeader">
             <div className='Title'>Our Affiliations</div>
             <br/>
-            <div className='description'>Most market share holders with us  Most market share holders with us </div>
+            <div className='Description'>Most market share holders with us  Most market share holders with us </div>
         </div>
     )
 }
