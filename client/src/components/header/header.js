@@ -17,7 +17,7 @@ const Header =()=>{
                 <div className="hash">#Simple. #Transparent. #Secure</div><br/>
                 <div className="name">Extra Points Solutions</div><br/>
                 <div className="description">Products and services designed to help you reach your financial goals.</div><br/>
-                <button onClick={handleBuyClick}><div>Buy Now</div></button>
+                <button className='header-button'onClick={handleBuyClick}><div>Buy Now</div></button>
             </div> 
             <div>
                 <img src={placeholder} className="headerimg"alt='ok'></img>
